@@ -8,10 +8,19 @@ body {
     background-color: #d8d8e1;
 }
 
+.paint{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 32%;
+    margin-bottom: -150px;
+}
+
 .logo{
     position: absolute;
     width: 200px;
     height: 100px;
+    margin-left: -25px;
 }
 
 canvas {
@@ -26,6 +35,8 @@ canvas {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -70px;
+    margin-bottom: -20px;
 }
 
 .tool-box {
@@ -105,4 +116,16 @@ canvas {
 
 .active {
     background-color: #f2f2f2;
+}
+
+.footer{
+    width: 100%;
+    height: 20px;
+    display: flex;    
+    justify-content: center;
+    font: Arial;
+    font-size: 8;
+    color: #fff;
+    margin-bottom: 0;
+    background-color: #202020;
 }
